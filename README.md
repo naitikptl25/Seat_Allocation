@@ -22,7 +22,7 @@ This is a C++ program that simulates a seat allocation system for students based
 1. The program has some pre-loaded students with ranks and preferences.
 2. A new user is asked to:
    - Enter their name, rank, category.
-   - Enter college preferences (e.g., `IITB IITD IITK`).
+   - Enter college preferences (e.g., IITB IITD IITK).
 3. Seat allocation happens over **4 rounds**:
    - Top-ranked students are prioritized.
    - Reservations are honored per category.
@@ -35,17 +35,10 @@ This is a C++ program that simulates a seat allocation system for students based
 
 - C++
 - Standard Template Library (STL)
-  - `vector`
-  - `map`
-  - `algorithm`
-  - `sstream`
+  - vector
+  - map
+  - greedy algorithm
+  - sstream
 
 ---
 
-## How to Run
-
-1. Copy the code to a `.cpp` file, e.g., `seat_allocation.cpp`
-2. Compile it using any C++ compiler, e.g., g++:
-
-   ```bash
-   g++ seat_allocation.cpp -o seat_allocation
